@@ -11,6 +11,6 @@ public class Bullet {
 
     }
     public void bomb() {
-        System.out.println("bomb");
+        System.out.println(" bomb");
     }
 }
