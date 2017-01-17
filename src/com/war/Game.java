@@ -5,7 +5,7 @@ package com.war;
  */
 public class Game {
 
-    int score = 0;
+int score = 0;
 
 MyPlane m1 = new MyPlane(5,100,40,100);
 Plane t1 = new TheirPlane(10,200,60,100);
@@ -21,9 +21,6 @@ public int getScore() {
     t1.crash();
     score = score + 2;
     return score;
-
-
-
 }
 
 
